@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rekomondasi App</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  </head>
+  <body class="flex flex-col justify-center item-center p-8 min-h-screen bg-gradient-to-r from-blue-400 to-orange-500 text-gray-800 md:flex-row">
+    <main class="bg-white p-16 rounded-lg">
+      <h1 class="text-3xl font-bold mb-8">Rekomondasi nama bayi anda:</h1>
+
+      <form action="{{ url_for('predict') }}" method="post" class="flex flex-col" onSubmit="validasi()">
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Validation dengan No WA</label>
+          <input type="number" class="form-control" id="noWa" placeholder="0833676XXXX" />
+        </div>
+        <div class="mb-3">
+          <label for="validationTextarea" class="form-label">Deskripsi</label>
+          <textarea
+            class="form-control"
+            cols="40"
+            rows="4"
+            minlength="4"
+            maxlength="100"
+            id="validationTextarea"
+            height="54"
+            placeholder="Tuliskan deskripsi nama yang dinginkan contoh: orang yang jujur gagah dan pemberani"
+            required
+          ></textarea>
+          <div class="invalid-feedback">Masukan deskripsi dengan benar jangan ngaco.</div>
+          <p id="Limit"></p>
+        </div>
+        <button type="submit" class="flex justify-center align-center mt-8 p-4 bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-md">
+          Rekomondasikan
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right ml-4">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </form>
+    </main>
+    <section class="mt-8 h-full flex-auto rounded-lg md:mt-0 md:ml-8">
+      <div class="bg-white p-16 rounded-lg">
+        <h1 class="text-2xl mb-8">Nama bayi yang kami rekomondasikan</h1>
+        {% if (active) != 0 %}
+
+        <div class="mb-3">
+          <ol>
+            <!-- For loop logic of jinja template -->
+            {%for i in range(0, lenNama)%}
+
+            <li>{{dataName[i]}}</li>
+            {%endfor%}
+          </ol>
+        </div>
+        <table class="table table-hover">
+          <thead>
+            <!--header tabel-->
+            <tr>
+              <th scope="col">Nama</th>
+              <th scope="col">Arti</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- For loop logic of jinja template -->
+            {%for i in range(0, lenTable)%}
+
+            <!-- table rows -->
+            <tr>
+              <td>{{names[i]}}</td>
+              <td>{{arti[i]}}</td>
+
+              {%endfor%}
+            </tr>
+          </tbody>
+        </table>
+
+        {% endif %}
+      </div>
+    </section>
+    <script>
+      var InputText = document.getElementById("validationTextarea");
+      var Limit = document.getElementById("Limit");
+      var limit = 100;
+      Limit.textContent = 0 + "/" + limit;
+
+      InputText.addEventListener("input", function () {
+        var textLength = InputText.value.length;
+        Limit.textContent = textLength + "/" + limit;
+
+        if (textLength > limit) {
+          InputText.style.borderColor = "#ff2851";
+          Limit.style.color = "#ff2851";
+        } else {
+          InputText.style.borderColor = "#31821b";
+          Limit.style.color = "#31821b";
+        }
+      });
+    </script>
+    <script type="text/javascript">
+      const cars = [556, 6677];
+      function validasi() {
+        var nama = document.getElementById("noWa").value;
+        if (nama === cars) {
+          return true;
+        } else {
+          alert("Lu siapa So asik lu");
+        }
+      }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+</html>

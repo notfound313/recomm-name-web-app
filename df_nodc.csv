@@ -1,0 +1,430 @@
+,nama,arti,arti_clean
+0,Angkasa,yang bermakna langit,bermakna langit
+1,Awan,"yang bermakna pendukung, langit",bermakna pendukung langit
+2,Amat,yang bermakna mengamati,bermakna mengamati
+3,Ahyad,yang bermakna mulia,bermakna mulia
+4,Aidil,yang bermakna jujur,bermakna jujur
+5,Arief,yang bermakna berpengetahuan luas,bermakna berpengetahuan luas
+6,Aman,yang bermakna damai,bermakna damai
+7,Aufa,yang bermakna kebenaran,bermakna kebenaran
+8,Amien,yang bermakna harapan,bermakna harapan
+9,Alam,yang bermakna dunia,bermakna dunia
+10,Agastya,yang bermakna berpengetahuan,bermakna berpengetahuan
+11,Batara,yang bermakna berwibawa,bermakna berwibawa
+12,Buana,yang bermakna dunia,bermakna dunia
+13,Bagus,yang bermakna baik,bermakna baik
+14,Balu,yang bermakna anak yang jenius,bermakna anak jenius
+15,Banyu,yang bermakna air,bermakna air
+16,Biantara,yang bermakna penguasa,bermakna penguasa
+17,Bintang,yang bermakna cahaya di malam hari,bermakna cahaya malam hari
+18,Berkah,yang bermakna hadiah,bermakna hadiah
+19,Candra,yang bermakna bulan,bermakna bulan
+20,Chandrabanu,yang bermakna cahaya bulan,bermakna cahaya bulan
+21,Diaz,yang bermakna membimbing,bermakna membimbing
+22,Doni,yang bermakna raja,bermakna raja
+23,Dihan,yang bermakna istimewa,bermakna istimewa
+24,Dhamendra,yang bermakna pangeran,bermakna pangeran
+25,Fayzal,yang bermakna kasih sayang,bermakna kasih sayang
+26,Fidaan,yang bermakna selalu ingin membantu,bermakna selalu membantu
+27,Farrel,yang bermakna pemenang,bermakna pemenang
+28,Ismaya,yang bermakna bijaksana,bermakna bijaksana
+29,Merpati,yang bermakna burung merpati,bermakna burung merpati
+30,Elang,yang bermakna burung elang,bermakna burung elang
+31,Fadhlan,yang bermakna hadiah dari Tuhan,bermakna hadiah tuhan
+32,Galang,yang bermakna menghargai,bermakna menghargai
+33,Gazza,yang bermakna berani,bermakna berani
+34,Gesang yang,bermakna kehidupan,bermakna kehidupan
+35,Garuda,"yang bermakna burung, penjelajah",bermakna burung penjelajah
+36,Guntur,yang bermakna petir,bermakna petir
+37,Gunadi,yang bermakna sesuatu yang berarti,bermakna berarti
+38,Harta,yang bermakna berharga,bermakna berharga
+39,Hanif,yang bermakna orang yang terpercaya,bermakna orang terpercaya
+40,Hawis,yang bermakna pemikiran,bermakna pemikiran
+41,Haydar,yang bermakna damai,bermakna damai
+42,Hiraka,yang bermakna berlian,bermakna berlian
+43,Hady,yang bermakna pemimpin,bermakna pemimpin
+44,Hiras,yang bermakna berbakat,bermakna berbakat
+45,Hitu,yang bermakna orang yang bermanfaat,bermakna orang bermanfaat
+46,Iswara,"yang bermakna terhormat, berhati besar",bermakna terhormat berhati besar
+47,Iman,yang bermakna menghargai,bermakna menghargai
+48,Katon,yang bermakna nyata,bermakna nyata
+49,Kuwat,yang bermakna kuat,bermakna kuat
+50,Kali,yang bermakna sungai,bermakna sungai
+51,Langgeng,yang bermakna kekal,bermakna kekal
+52,Makbul,yang bermakna dapat diterima,bermakna diterima
+53,Muluk,"yang bermakna terpuji, mulia",bermakna terpuji mulia
+54,Nadhif,yang bermakna bangsawan,bermakna bangsawan
+55,Nakula,yang bermakna kemenangan,bermakna kemenangan
+56,Nahdi,yang bermakna pohon,bermakna pohon
+57,Netra,yang bermakna melihat,bermakna melihat
+58,Pramana,yang bermakna bijaksana,bermakna bijaksana
+59,Panuta,yang bermakna contoh yang baik,bermakna contoh baik
+60,Perdana,yang bermakna awalan,bermakna awalan
+61,Puja,yang bermakna memuja,bermakna memuja
+62,Putra,yang bermakna anak lelaki,bermakna anak lelaki
+63,Puntadewa,"yang bermakna diam, hening",bermakna diam hening
+64,Raam,yang bermakna memiliki semangat yang tinggi,bermakna memiliki semangat tinggi
+65,Rian,yang bermakna raja,bermakna raja
+66,Raka,yang bermakna bulan dengan kemuliaan,bermakna bulan kemuliaan
+67,Razan,yang bermakna orang bijak,bermakna orang bijak
+68,Rifki,yang bermakna baik hati,bermakna baik hati
+69,Ramelan,yang bermakna ramalan,bermakna ramalan
+70,Rio,yang bermakna bahagia,bermakna bahagia
+71,Reyan,yang bermakna pintu surga,bermakna pintu surga
+72,Sura,yang bermakna kehidupan yang baru,bermakna kehidupan baru
+73,Setia,"yang bermakna setia, loyal",bermakna setia loyal
+74,Sigit,yang bermakna tampan,bermakna tampan
+75,Surya,yang bermakna matahari,bermakna matahari
+76,Sentosa,yang bermakna bebas dari kesusahan,bermakna bebas kesusahan
+77,Sakul,yang bermakna sejahtera,bermakna sejahtera
+78,Toha,yang bermakna hadiah dari Tuhan,bermakna hadiah tuhan
+79,Teguh,yang bermakna sabar,bermakna sabar
+80,Topan,yang bermakna badai,bermakna badai
+81,Untung,yang bermakna beruntung,bermakna beruntung
+82,Unggul,bermakna tinggi,bermakna tinggi
+83,Viratha,bermakna keberanian,bermakna keberanian
+84,Vikal,yang bermakna senja,bermakna senja
+85,Widi,yang bermakna penuh kebajikan,bermakna penuh kebajikan
+86,Wayan,yang bermakna anak pertama,bermakna anak pertama
+87,Wicky,yang bermakna beruntung,bermakna beruntung
+88,Waluyo,yang bermakna panjang umur,bermakna panjang umur
+89,Wijaya,yang bermakna beruntung,bermakna beruntung
+90,Wibawa,yang bermakna berkharisma,bermakna berkharisma
+91,Wira,yang bermakna pahlawan,bermakna pahlawan
+92,Wiga,yang bermakna pejuang,bermakna pejuang
+93,Qairo,yang bermakna beruntung,bermakna beruntung
+94,Jagat,yang bermakna dunia,bermakna dunia
+95,Kabul,yang bermakna harapan,bermakna harapan
+96,Kulon,yang bermakna barat,bermakna barat
+97,Kaliappa,yang bermakna tunas,bermakna tunas
+98,Zacky,yang bermakna cerdas,bermakna cerdas
+99,Zuben,yang bermakna pemberian Tuha,bermakna pemberian tuha
+100,Adam,Manusia pertama yang diciptakan oleh Allah.,manusia pertama diciptakan allah
+101,Ahmad,Pujian bagi Nabi Muhammad SAW.,pujian nabi muhammad saw
+102,Aiman,"Tujuan, cita-cita yang tinggi.",tujuan cita cita tinggi
+103,Aisy,Hidup bahagia dan ceria.,hidup bahagia ceria
+104,Ali,"Pemberani, mulia.",pemberani mulia
+105,Amir,Pemimpin yang berwibawa.,pemimpin berwibawa
+106,Anas,Manusia yang bermurah hati.,manusia bermurah hati
+107,Arman,Harapan yang kuat.,harapan kuat
+108,Aryan,Penuh kasih sayang.,penuh kasih sayang
+109,Ashraf,Terhormat dan terpuji.,terhormat terpuji
+110,Athar,"Jejak yang baik, bekas yang baik.",jejak baik bekas baik
+111,Azhar,"Terang, bersinar.",terang bersinar
+112,Badi,Luar biasa.,luar biasa
+113,Bilal,Penyeru panggilan shalat.,penyeru panggilan shalat
+114,Daud,Nabi Daud yang terkenal dalam Al-Qur’an.,nabi daud terkenal al qur an
+115,Faisal,Hakim yang adil.,hakim adil
+116,Faris,Ksatria yang berani.,ksatria berani
+117,Fauzan,Kemenangan dan keberuntungan.,kemenangan keberuntungan
+118,Ghazi,Pejuang yang menang.,pejuang menang
+119,Hafiz,"Penjaga, penghafal Al-Qur’an.",penjaga penghafal al qur an
+120,Hamza,Paman Nabi Muhammad SAW yang terkenal.,paman nabi muhammad saw terkenal
+121,Haris,"Pengawal, pelindung.",pengawal pelindung
+122,Hasan,"Cantik, tampan.",cantik tampan
+123,Husain,"Baik, indah.",baik indah
+124,Idris,Nabi yang terkenal dalam Al-Qur’an.,nabi terkenal al qur an
+125,Ihsan,"Kebaikan, kemurahan hati.",kebaikan kemurahan hati
+126,Ilyas,Nabi Ilyas yang terkenal dalam Al-Qur’an.,nabi ilyas terkenal al qur an
+127,Imran,"Ayah Maryam, ibu Nabi Isa.",ayah maryam ibu nabi isa
+128,Ismail,Nabi Ismail yang terkenal dalam Al-Qur’an.,nabi ismail terkenal al qur an
+129,Ja’far,Sahabat Nabi Muhammad SAW.,sahabat nabi muhammad saw
+130,Jalal,"Kemuliaan, kebesaran.",kemuliaan kebesaran
+131,Kamal,"Keindahan, kesempurnaan.",keindahan kesempurnaan
+132,Karim,"Pemurah, baik hati.",pemurah baik hati
+133,Khalid,"Abadi, abadi.",abadi abadi
+134,Luqman,Nama seorang bijak dalam Al-Qur’an.,nama seorang bijak al qur an
+135,Mahdi,Diberi petunjuk oleh Allah.,diberi petunjuk allah
+136,Mahmud,"Terpuji, dipuji.",terpuji dipuji
+137,Malik,"Raja, penguasa.",raja penguasa
+138,Mustafa,"Nabi Muhammad SAW, yang dipilih.",nabi muhammad saw dipilih
+139,Nasir,"Pembela, penolong.",pembela penolong
+140,Nuh,Nabi Nuh yang terkenal dalam Al-Qur’an.,nabi nuh terkenal al qur an
+141,Qadir,"Berkuasa, mampu.",berkuasa mampu
+142,Qasim,"Pemberi, pembagi.",pemberi pembagi
+143,Rafi,"Tinggi, mulia.",tinggi mulia
+144,Rahman,"Maha Penyayang, Maha Pemurah.",maha penyayang maha pemurah
+145,Rais,Pemimpin yang cerdas.,pemimpin cerdas
+146,Rizwan,Kepuasan dan keberuntungan.,kepuasan keberuntungan
+147,Saad,Orang yang bahagia.,orang bahagia
+148,Safwan,"Suci, bersih.",suci bersih
+149,Saleh,"Baik, saleh.",baik saleh
+150,Sami,"Mendengar, perhatian.",mendengar perhatian
+151,Shafi,"Penyembuh, penolong.",penyembuh penolong
+152,Taha,Nama Nabi Muhammad SAW dalam Al-Qur’an.,nama nabi muhammad saw al qur an
+153,Taufik,"Petunjuk, keberhasilan.",petunjuk keberhasilan
+154,Umar,Khalifah kedua dalam Islam.,khalifah kedua islam
+155,Usman,Khalifah ketiga dalam Islam.,khalifah ketiga islam
+156,Wahid,"Unik, satu-satunya.",unik satu satunya
+157,Wajid,"Penemu, pencari.",penemu pencari
+158,Yasir,"Kaya, sejahtera.",kaya sejahtera
+159,Yunus,Nabi Yunus yang terkenal dalam Al-Qur’an.,nabi yunus terkenal al qur an
+160,Yaqub,Nabi Yakub yang terkenal dalam Al-Qur’an.,nabi yakub terkenal al qur an
+161,Yasin,Salah satu surah dalam Al-Qur’an.,salah satu surah al qur an
+162,Zaid,"Pertolongan, pertahanan.",pertolongan pertahanan
+163,Zakariya,Nabi Zakariya yang terkenal dalam Al-Qur’an.,nabi zakariya terkenal al qur an
+164,Zaki,"Bersih, suci.",bersih suci
+165,Zayd,"Pertolongan, pertahanan.",pertolongan pertahanan
+166,Zuhair,"Cerdas, bercahaya.",cerdas bercahaya
+167,Aban,Kecerdasan dan kecermatan.,kecerdasan kecermatan
+168,Abyan,Kecerdasan yang jelas dan terang.,kecerdasan jelas terang
+169,Adil,"Adil, bijaksana.",adil bijaksana
+170,Afif,"Baik, jujur, dan berbudi pekerti.",baik jujur berbudi pekerti
+171,Ajmal,"Paling cantik, terindah.",paling cantik terindah
+172,Akram,Paling mulia dan dermawan.,paling mulia dermawan
+173,Alif,Huruf pertama dalam aksara Arab.,huruf pertama aksara arab
+174,Amin,Dapat dipercaya dan jujur.,dipercaya jujur
+175,Ammar,"Membangun, berusaha.",membangun berusaha
+176,Arif,"Bijaksana, memiliki pengetahuan.",bijaksana memiliki pengetahuan
+177,Asad,"Singa, kuat dan gagah berani.",singa kuat gagah berani
+178,Azeem,"Agung, hebat.",agung hebat
+179,Azim,"Mulia, agung.",mulia agung
+180,Azman,Dihormati dan dihargai.,dihormati dihargai
+181,Bashar,"Manusia, baik.",manusia baik
+182,Daris,Memiliki pengetahuan dan kebijaksanaan.,memiliki pengetahuan kebijaksanaan
+183,Diyab,"Harimau muda, gagah berani.",harimau muda gagah berani
+184,Fadi,"Pemberani, memenangkan hati orang lain.",pemberani memenangkan hati orang
+185,Fajr,"Fajar, awal yang baik.",fajar awal baik
+186,Ghalib,"Menang, berjaya.",menang berjaya
+187,Habib,"Kekasih, dicintai.",kekasih dicintai
+188,Harith,"Pemelihara, menjaga.",pemelihara menjaga
+191,Imad,"Kokoh, mendukung.",kokoh mendukung
+192,Jabir,"Pemurah, berani.",pemurah berani
+193,Jafar,"Sungai yang mengalir, sahabat Nabi Muhammad SAW.",sungai mengalir sahabat nabi muhammad saw
+194,Syarif,"Dipuji, dan mulia",dipuji mulia
+195,Firdaus,Taman Surga,taman surga
+196,Zayn,"keindahan, ketampanan",keindahan ketampanan
+197,Sulaiman,"Nabi yang memiliki kuasa sebagai raja di alam Jin, Hewan, dan Manusia.",nabi memiliki kuasa raja alam jin hewan manusia
+198,Maksum,Terhindar dari dosa untuk menjaga kemuliaan dan martabat rasul kepada kaumnya.,terhindar dosa menjaga kemuliaan martabat rasul kaumnya
+199,Yusuf,Nabi yang memiliki paras yang sangat tampan,nabi memiliki paras sangat tampan
+200,Abhicandra,cahaya kepintaran,cahaya kepintaran
+201,Abimanyu,tidak takut akan kesulitan,takut kesulitan
+202,Abisatya,seorang yang jujur,seorang jujur
+203,Abiyasa,seorang yang selalu mendekati sifat-sifat terpuji,seorang selalu mendekati sifat sifat terpuji
+204,Abyasa,pandai,pandai
+205,Adicandra,rembulan yang indah,rembulan indah
+206,Adiguna,pandai dan pintar,pandai pintar
+207,Adikara,memberi perintah,memberi perintah
+208,Adinata,paling unggul,paling unggul
+209,Adipramana,penguasa pertama,penguasa pertama
+210,Aditya,matahari,matahari
+211,Adiwangsa,mulia,mulia
+212,Agnibrata,bertindak dengan hangat,bertindak hangat
+213,Agung,besar,besar
+214,Aji,berharga,berharga
+215,Andaru,"wahyu, kebahagiaan, suka menolong, dermawan, memberi jala",wahyu kebahagiaan suka menolong dermawan memberi jala
+216,Aradhana,perdamaian,perdamaian
+217,Ardianto,kehormatan,kehormatan
+218,Ardiono,jiwa yang kuat,jiwa kuat
+219,Arga,gunung,gunung
+220,Arjanta,selalu gembira,selalu gembira
+221,Arjuna,hebat,hebat
+222,Arya,bangsawan,bangsawan
+223,Atmaja,anak laki-laki,anak laki laki
+224,Apta,"pandai, cerdas",pandai cerdas
+225,Asmaralaya,anak dari surga,anak surga
+226,Astaguna,selalu berbuat kebaikan,selalu berbuat kebaikan
+227,Aswangga,"gesit, bertumbuh cekatan",gesit bertumbuh cekatan
+228,Bagas,kuat dan teguh,kuat teguh
+229,Bagaskoro,matahari bersinar,matahari bersinar
+230,Bagya,"senang, bahagia",senang bahagia
+231,Bajradaka,air intan,air intan
+232,Bamantara,penguasa udara,penguasa udara
+233,Barata,menjauhi duniawi,menjauhi duniawi
+234,Basiran,dermawan,dermawan
+235,Baskara,matahari,matahari
+236,Basuki,orang yang selamat,orang selamat
+237,Baswara,"bercahaya, berkilau",bercahaya berkilau
+239,Baureksa,seorang pelindung,seorang pelindung
+240,Bayuaji,gabungan dari Bayu (angin dan kesaktian) dan Aji (ilmu sakti),gabungan bayu angin kesaktian aji ilmu sakti
+241,Bhadrika,pemberani,pemberani
+242,Bimo,luar biasa,luar biasa
+243,Birawa,"dahsyat, hebat",dahsyat hebat
+244,Bisma,"sangat luar biasa, nama tokoh wayang",sangat luar biasa nama tokoh wayang
+245,Bhagawanta,untung serta bahagia,untung bahagia
+246,Bhanu,"sinar, cahaya terang",sinar cahaya terang
+247,Budiono,laki-laki yang baik,laki laki baik
+248,Brahma,"Dewa pencipta alam, mantra suci",dewa pencipta alam mantra suci
+249,Bramantya,semangat,semangat
+250,Brawijaya,yang mulia raja wijaya,mulia raja wijaya
+251,Byakta,terang,terang
+276,Damarlangit,gabungan dari nama Damar (yang menerangi) dan Langit (angkasa),gabungan nama damar menerangi langit angkasa
+277,Daniswara,yang mulia,mulia
+278,Danurdara,diharap jadi orang kaya ilmu,diharap jadi orang kaya ilmu
+279,Darsa,keinginan,keinginan
+280,Daru,meteor,meteor
+281,Darya,berbudi luhur,berbudi luhur
+282,Dewandaru,Tuhan yang memberi wahyu dan kebahagiaan,tuhan memberi wahyu kebahagiaan
+283,Dewangga,tubuh sang dewa,tubuh sang dewa
+284,Dhika,anak laki-laki yang diberi kelebihan,anak laki laki diberi kelebihan
+285,Dimas,yang dicintai,dicintai
+286,Dipa,raja,raja
+287,Djani,tekun,tekun
+288,Edi,"indah, enak dipandang",indah enak dipandang
+289,Elon,mengikuti arus,mengikuti arus
+290,Endaru,kuat,kuat
+291,Endra,"yang terakhir, tampan",terakhir tampan
+292,Estu,sungguh-sungguh,sungguh sungguh
+293,Gadhing,anak laki-laki yang kokoh,anak laki laki kokoh
+294,Ganendra,pasukan dewa,pasukan dewa
+295,Gentala,naga,naga
+296,Giandra,cerdas dan sejahtera,cerdas sejahtera
+297,Gilang,anak laki-laki yang teguh,anak laki laki teguh
+298,Guinandra,sentausa dan pintar,sentausa pintar
+299,Gumelar,anak laki-laki yang terus terang,anak laki laki terus terang
+300,Gunawan,laki-laki yang berguna,laki laki berguna
+302,Hadinata,gabungan dari nama Hadi (petunjuk jalan) dan Nata (pelindung),gabungan nama hadi petunjuk jalan nata pelindung
+303,Handaru,"wahyu, kebahagiaan",wahyu kebahagiaan
+304,Hanenda,tidak mudah menyerah,mudah menyerah
+305,Haribawa,pembawa kebahagiaan,pembawa kebahagiaan
+306,Harjasa,indah,indah
+307,Harjita,hidup bermanfaat,hidup bermanfaat
+309,Hartadi,harta yang indah,harta indah
+310,Hasta,delapan,delapan
+311,Hendro,bergaris emas,bergaris emas
+312,Herdian,diharapkan jadi orang mulia,diharapkan jadi orang mulia
+313,Herjuno,sangat sopan,sangat sopan
+314,Idhang,"tempat bersandar, orang yang dapat diandalkan",tempat bersandar orang diandalkan
+315,Ihatra,di dunia,dunia
+316,Indra,diberi kemuliaan dan bijaksana,diberi kemuliaan bijaksana
+317,Indradewa,yang diberi kemuliaan oleh Tuhan,diberi kemuliaan tuhan
+318,Inir,kehormatan,kehormatan
+319,Ismawan,bijaksana dan teguh,bijaksana teguh
+320,Ismoyono,"keteguhan, kebijaksanaa",keteguhan kebijaksanaa
+328,Jagapati,yang menjaga kesehatan,menjaga kesehatan
+329,Jagaraga,yang melindungi raganya,melindungi raganya
+330,Janu,berpikir jauh kedepan,berpikir jauh kedepan
+331,Jarot,"berotot, kuat",berotot kuat
+332,Jatmika,sopan santun,sopan santun
+333,Jaya,luar Biasa,luar biasa
+334,Jayantaka,seorang yang bijak,seorang bijak
+335,Joko,anak muda,anak muda
+336,Jumanta,"emas, mutiara",emas mutiara
+337,Jumantara,angkasa,angkasa
+338,Kaesang,raja keturunan bangsawan,raja keturunan bangsawan
+339,Kama,yang dipuja,dipuja
+340,Kamajaya,Dewa cinta,dewa cinta
+341,Kamandaka,yang memerintah,memerintah
+342,Kanigara,bunga matahari,bunga matahari
+343,Kawindra,punya rasa seni,punya rasa seni
+344,Karno,lembut hati,lembut hati
+345,Kawanda,awan,awan
+346,Kawidagda,"rajin, terampil",rajin terampil
+347,Kawiswara,yang mulia,mulia
+348,Kresna,bijaksana,bijaksana
+349,Kukuh,mantap,mantap
+350,Kusna,suka ilmu pengetahuan,suka ilmu pengetahuan
+351,Kusuma,kesentosaan,kesentosaan
+352,Kuswan,sentosa,sentosa
+353,Labda,cerdas,cerdas
+354,Lakeswara,Raja dunia,raja dunia
+355,Laksamana,berkemauan keras,berkemauan keras
+356,Lasmana,kemauan keras,kemauan keras
+357,Lawana,"samudera, lautan",samudera lautan
+358,Leksana,mempunyai kelebihan,mempunyai kelebihan
+359,Lesmana,selamanya,selamanya
+360,Lingga,tanda yang melambangkan kekuasaan,tanda melambangkan kekuasaan
+361,Lintang,bintang bersinar,bintang bersinar
+362,Listu,ceria dan bahagia,ceria bahagia
+363,Luhung,"lebih tinggi, sangat mulia",lebih tinggi sangat mulia
+364,Luhur,mulia,mulia
+365,Lulut,penurut,penurut
+366,Mada,kegembiraan,kegembiraan
+367,Madaharsa,cinta,cinta
+368,Madana,cinta,cinta
+369,Madhani,penyeimbang,penyeimbang
+370,Madya,tengah,tengah
+371,Madyana,"tidak memihak, berada di tengah",memihak berada tengah
+372,Mahadana,sangat kaya,sangat kaya
+373,Mahadi,mulia,mulia
+374,Mahadri,gunung besar,gunung besar
+375,Mahesa,banteng,banteng
+376,Maheshwara,raja besar,raja besar
+377,Mahajana,terkenal,terkenal
+378,Mahapraja,yang berkuasa besar,berkuasa besar
+379,Mahaprana,bersikap optimis,bersikap optimis
+380,Mahardika,berbudi luhur,berbudi luhur
+381,Mahatma,berjiwa besar,berjiwa besar
+382,Mandala,"wilayah, daerah",wilayah daerah
+383,Manggala,"pemimpin, panglima",pemimpin panglima
+384,Manikmaya,nama lain dari Betara Guru,nama betara guru
+385,Mardhi,memelihara,memelihara
+386,Muhadir,gunung besar,gunung besar
+387,Nadindra,sungai yang dalam dan luas,sungai luas
+388,Nareswara,mulia dan bijaksana,mulia bijaksana
+389,Nataya,pelindung,pelindung
+390,Nawang,orang yang bijaksana,orang bijaksana
+391,Nehan,merasa bahagia,merasa bahagia
+392,Nismara,tenang,tenang
+393,Nugraha,hadiah dari Tuhan,hadiah tuhan
+394,Numatya,orang yang ikhlas,orang ikhlas
+395,Padmana,hati yang berbunga,hati berbunga
+396,Pambudi,berbudi pekerti,berbudi pekerti
+397,Pandita,terpelajar,terpelajar
+398,Paramudya,bijak dan baik,bijak baik
+399,Parikesit,nama seorang ksatria (cucu Arjuna),nama seorang ksatria cucu arjuna
+400,Pinot,suci,suci
+401,Praba,cahaya,cahaya
+402,Pradana,kaya dan dermawan,kaya dermawan
+403,Pradipta,terang,terang
+404,Prama,unggul,unggul
+405,Pramatya,"bersinar, melebihi",bersinar melebihi
+406,Pramono,"terhormat, cerdas",terhormat cerdas
+407,Pramudya,bijaksana,bijaksana
+408,Pranadibta,"berani, Setia",berani setia
+409,Pranadipa,"berani, setia",berani setia
+410,Pranama,waspada,waspada
+411,Pranawa,hati yang terang,hati terang
+412,Prasaja,"berwibawa, bersahaja",berwibawa bersahaja
+413,Prasetyo,"kehormatan, setia",kehormatan setia
+414,Prasetyono,kehormatan,kehormatan
+415,Prastowo,kehormatan,kehormatan
+416,Prayoga,"bagus, baik",bagus baik
+417,Raden,bangsawan,bangsawan
+418,Raditya,"matahari, bersinar",matahari bersinar
+419,Ragnala,kasih sayang,kasih sayang
+420,Rahagi,bersinar,bersinar
+421,Rahardian,"makmur, sejahtera",makmur sejahtera
+422,Raharja,makmur,makmur
+423,Rakabuming,bulan purnama yang menyinari bumi,bulan purnama menyinari bumi
+424,Rama,tokoh pewayangan,tokoh pewayangan
+425,Rangga,pelindung,pelindung
+426,Reja,ramai,ramai
+427,Respati,"gagah, pantas, Kamis",gagah pantas kamis
+428,Rupaka,merawat,merawat
+441,Tamawijaya,permata abadi,permata abadi
+442,Tanaya,anak,anak
+443,Taraka,bermata bintang,bermata bintang
+444,Teja,sinar,sinar
+445,Tirta,air,air
+446,Tohpati,bertaruh nyawa,bertaruh nyawa
+447,Tranggana,penuh dengan bintang,penuh bintang
+448,Tulus,ikhlas sempurna,ikhlas sempurna
+449,Ubhaya,memiliki dua cara,memiliki cara
+450,Ugarha,yang dihormati,dihormati
+451,Ulung,unggul,unggul
+452,Umbara,yang memperhatikan,memperhatikan
+453,Upasama,kesentosaan,kesentosaan
+454,Uraga,naga,naga
+455,Utama,yang terbaik,terbaik
+456,Wajendra,raja besar,raja besar
+457,Wardana,kesucian tubuh,kesucian tubuh
+458,Warih,sebening air,sebening air
+459,Werdaya,hati,hati
+460,Wibisana,tokoh pewayangan,tokoh pewayangan
+461,Wibowo,"karisma, wibawa",karisma wibawa
+462,Widagdo,"pintar, mahir",pintar mahir
+463,Widayaka,Dewa,dewa
+464,Widodo,sejahtera,sejahtera
+465,Widura,batu permata,batu permata
+466,Wicaksana,bijaksana,bijaksana
+468,Wirya,mulia,mulia
+469,Wismaya,keajaiban,keajaiban
+470,Wyakta,pasti,
+471,Yada,pejuang,pejuang
+472,Yuda,perang,perang
+473,Yudanta,dalam perang,perang
+474,Yudayana,panglima Perang,panglima perang
+475,Yuwa,muda,muda
+476,Yoda,bersifat perwira,bersifat perwira
+477,Yoga,mengingatkan pada Tuhan,mengingatkan tuhan
