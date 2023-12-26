@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rekomondasi App</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="{{url_for('static', filename='assets/favicon.ico')}}" />
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   </head>
@@ -12,7 +12,7 @@
     <main class="bg-white p-16 rounded-lg">
       <h1 class="text-3xl font-bold mb-8">Rekomondasi nama bayi anda:</h1>
 
-      <form action="{{ url_for('predict') }}" method="post" class="flex flex-col" onSubmit="validasi()">
+      <form action="{{ url_for('predict')}}" method="post" class="flex flex-col" onSubmit="validasi()">
         <div class="mb-3">
           <label for="formGroupExampleInput" class="form-label">Validation dengan No WA</label>
           <input type="number" class="form-control" id="noWa" placeholder="0833676XXXX" />
@@ -20,6 +20,7 @@
         <div class="mb-3">
           <label for="validationTextarea" class="form-label">Deskripsi</label>
           <textarea
+            name="deskripsi"
             class="form-control"
             cols="40"
             rows="4"
@@ -42,17 +43,16 @@
         </button>
       </form>
     </main>
+    {% if (active) != 0 %}
     <section class="mt-8 h-full flex-auto rounded-lg md:mt-0 md:ml-8">
       <div class="bg-white p-16 rounded-lg">
         <h1 class="text-2xl mb-8">Nama bayi yang kami rekomondasikan</h1>
-        {% if (active) != 0 %}
 
         <div class="mb-3">
-          <ol>
+          <ol class="list-group list-group-numbered">
             <!-- For loop logic of jinja template -->
             {%for i in range(0, lenNama)%}
-
-            <li>{{dataName[i]}}</li>
+            <li class="mb-1 list-group-item">{{dataName[i]}}</li>
             {%endfor%}
           </ol>
         </div>
@@ -77,10 +77,9 @@
             </tr>
           </tbody>
         </table>
-
-        {% endif %}
       </div>
     </section>
+    {% endif %}
     <script>
       var InputText = document.getElementById("validationTextarea");
       var Limit = document.getElementById("Limit");
@@ -101,15 +100,17 @@
       });
     </script>
     <script type="text/javascript">
-      const cars = [556, 6677];
-      function validasi() {
-        var nama = document.getElementById("noWa").value;
-        if (nama === cars) {
-          return true;
-        } else {
-          alert("Lu siapa So asik lu");
-        }
-      }
+            const number = [08978848328, 085741898550, 08531139618, 081225556151,08818590708, 085892841374, 08193107199, 081245806350, 08569332204, 089666065610, 08112537722, 081284763595,08571774745,087784985389, 088289991043, 085325597864,08977504824, 08773770008, 089602614242,085641654241,08980171158,081325249955, 085292836354,08157650620,0882009708708,
+        085848191413,085326712354,087834790562,089679212990,081213714545,085776818524,081228194659,085725972904,082139373244, 085713386354,088902987674,089682120732,082114843987,085795449578,085801135983,085865806835
+      087739228757,085229715629,081327408189];
+            function validasi() {
+              var nama = document.getElementById("noWa").value;
+              if (nama === number) {
+                return true;
+              } else {
+                alert("Lu siapa So asik lu");
+              }
+            }
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

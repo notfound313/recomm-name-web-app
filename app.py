@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template
 import pandas as pd
-import re
 import random
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -12,18 +11,23 @@ df = pd.read_csv("df_nodc.csv")
 
 
 @app.route('/')
-def index():
-    return render_template('index.html', active=0)
+def index():      
+    return render_template('index.html')
 
-@app.route('/predict', methods=['POST'])
+
+@app.route('/rekomondasi')
+def rekomondasi():
+    return render_template('app_recom.html', active=0)
+
+
+@app.route('/rekomondasi/predict', methods=['POST'])
 def predict():
     
-    no, desc = [x for x in request.form.values()]
-    desc = desc.lower()
+    desc = request.form['deskripsi']   
 
     user_response = pd.DataFrame({ 'nama':['-'],
                                 'arti':['-'],
-                                'arti_clean':desc})
+                                'arti_clean': desc.lower})
 
 
 
@@ -33,19 +37,19 @@ def predict():
     df_fc = pd.concat([user_response, df]).reset_index()
     df_fcp = df_fc.drop("index", axis=1)
     TfidfVec= TfidfVectorizer(analyzer='word', ngram_range=(1, 3), min_df=0,)
-    tfidf= TfidfVec.fit_transform(df_fcp['arti_clean'])
+    tfidf= TfidfVec.fit_transform(df_fcp['arti_clean'].values.astype('U'))
     con_simls = cosine_similarity(tfidf,tfidf)
 
     score = pd.Series(con_simls[0]).sort_values(ascending = False)
     top_ = list(score.iloc[1:7].index)
     for i in top_:
         names.append(df_fcp.iloc[i][0])
-        arti.append( df_fcp.iloc[i][2])
+        arti.append( df_fcp.iloc[i][1])
     #return data
     for x in range(len(names)):
-        nm = random.choice(df)
-        nm2 = random.choice(df)
-        nm3 = random.choice(df)
+        nm = random.choice(names)
+        nm2 = random.choice(names)
+        nm3 = random.choice(names)
         if nm != nm2 != nm3:
             dataName.append(nm+" "+nm2+" "+nm3)
     
