@@ -15,7 +15,7 @@
       <form action="{{ url_for('predict')}}" method="post" class="flex flex-col" onSubmit="validasi()">
         <div class="mb-3">
           <label for="formGroupExampleInput" class="form-label">Validation dengan No WA</label>
-          <input type="number" class="form-control" id="noWa" placeholder="0833676XXXX" />
+          <input type="number" class="form-control" id="noWa" placeholder="62833676XXXX" />
         </div>
         <div class="mb-3">
           <label for="validationTextarea" class="form-label">Deskripsi</label>
@@ -100,17 +100,18 @@
       });
     </script>
     <script type="text/javascript">
-            const number = [08978848328, 085741898550, 08531139618, 081225556151,08818590708, 085892841374, 08193107199, 081245806350, 08569332204, 089666065610, 08112537722, 081284763595,08571774745,087784985389, 088289991043, 085325597864,08977504824, 08773770008, 089602614242,085641654241,08980171158,081325249955, 085292836354,08157650620,0882009708708,
-        085848191413,085326712354,087834790562,089679212990,081213714545,085776818524,081228194659,085725972904,082139373244, 085713386354,088902987674,089682120732,082114843987,085795449578,085801135983,085865806835
-      087739228757,085229715629,081327408189];
-            function validasi() {
-              var nama = document.getElementById("noWa").value;
-              if (nama === number) {
-                return true;
-              } else {
-                alert("Lu siapa So asik lu");
-              }
-            }
+      const number = ['628978848328',6285741898550,628531139618,6281225556151,628818590708,6285892841374,628193107199,6281245806350,628569332204,6289666065610,628112537722,6281284763595,628571774745,6287784985389,6288289991043,6285325597864,
+        628977504824,628773770008,6289602614242,6285641654241,628980171158,6281325249955,6285292836354,628157650620,62882009708708,625848191413,6285326712354,6287834790562,6289679212990,6281213714545,6285776818524,
+        6281228194659,6285725972904,6282139373244,6285713386354,6288902987674,6289682120732,6282114843987,6285795449578,6285801135983,6285865806835,6287739228757,6285229715629,6281327408189,0876,
+      ];
+      function validasi() {
+        var noWa = document.getElementById("noWa").value;
+        if (noWA === number) {
+          return true;
+        } else {
+          alert("Lu siapa So asik lu");
+        }
+      }
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
