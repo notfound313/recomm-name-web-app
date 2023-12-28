@@ -27,7 +27,7 @@ def predict():
 
     user_response = pd.DataFrame({ 'nama':['-'],
                                 'arti':['-'],
-                                'arti_clean': desc.lower})
+                                'arti_clean': desc.lower()})
 
 
 
