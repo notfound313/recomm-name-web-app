@@ -19,7 +19,4 @@ Repository ini berisi file untuk deployment model _machine learning_ yaitu sitem
 
 adapun tampilan akan menjadi seperti ini:
 
-<div  align="center" >
-<video  src="recording.mp4" width="550" autoplay / > 
-
-</div>
+<video src="recording.mp4" ></video>
