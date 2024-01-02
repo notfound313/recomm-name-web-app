@@ -18,5 +18,5 @@ Repository ini berisi file untuk deployment model _machine learning_ yaitu sitem
 ### Tampilan
 
 adapun tampilan akan menjadi seperti ini:
-
-<video src="raw.githubusercontent.com/notfound313/recomm-name-web-app/main/recording.mp4" ></video>
+https://raw.githubusercontent.com/notfound313/recomm-name-web-app/main/recording.mp4
+[![Watch the video](page.png)](https://raw.githubusercontent.com/notfound313/recomm-name-web-app/main/recording.mp4)
